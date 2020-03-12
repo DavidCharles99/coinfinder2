@@ -1,9 +1,7 @@
 require_relative 'boot'
 
 require 'rails/all'
-configure do
-    set :views, 'src/views'
-end
+
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
